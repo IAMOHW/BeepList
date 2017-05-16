@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">BeepList</string>
+    <string name="login_text">登录</string>
+    <string name="register_text">注册</string>
+    <string name="hintpw_texts">Password</string>
+    <string name="register_title_text">Welcome to register</string>
+    <string name="inputpw">设置密码</string>
+    <string name="inputname">设置用户名</string>
+    <string name="hintname_text">Account</string>
+    <string name="inputphone">输入手机号</string>
+    <string name="hintphone">Phone</string>
+    <string name="hintemail_text">email</string>
+    <string name="inputemail">Email</string>
+    <string name="subumit_register_text">注册</string>
+    <string name="barOf_username_text">用户1</string>
+    <string name="jitang_text">Keep On</string>
+    <string name="login_title_text">BeepList</string>
+    <string name="hintaccont_text">    电子邮件</string>
+    <string name="add_text">添加</string>
+    <string name="exit_text">登出</string>
+</resources>

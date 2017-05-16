@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorOrangeRed">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login_title_text"
+        android:textColor="@color/colorWhite"
+        android:layout_margin="20dp"
+        android:textSize="20dp"
+        android:layout_gravity="center_horizontal"/>
+    <LinearLayout
+
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <EditText
+            android:background="@color/colorBGray"
+            android:layout_width="220dp"
+            android:layout_height="38dp"
+            android:id="@+id/input_your_name"
+            android:layout_marginLeft="75dp"
+            android:inputType="text"
+            android:textStyle="normal"
+            android:hint="@string/hintaccont_text"/>
+
+        <EditText
+            android:background="@color/colorBGray"
+            android:layout_width="220dp"
+            android:layout_height="38dp"
+            android:id="@+id/input_your_Pw"
+            android:layout_marginLeft="75dp"
+            android:layout_marginTop="20dp"
+            android:inputType="text"
+            android:textStyle="normal"
+            android:hint="@string/hintpw_texts"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="40dp"
+            android:backgroundTint="@color/colorWhite"
+            android:id="@+id/login_comein_id"
+            android:text="@string/login_text"/>
+
+    </LinearLayout>
+
+</LinearLayout>
